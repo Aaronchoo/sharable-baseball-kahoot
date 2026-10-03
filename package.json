@@ -1,0 +1,12 @@
+{
+  "name": "diamond-nine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A single-player baseball quiz that runs locally or on GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/build-client.cjs",
+    "prestart": "node scripts/build-client.cjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node tests/questions.cjs && node tests/seeds.cjs && node tests/timing.cjs && node tests/sharing.cjs"
+  }
+}
